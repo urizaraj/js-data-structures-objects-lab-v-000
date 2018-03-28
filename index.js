@@ -10,6 +10,9 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 
 
 
-// destructivelyUpdateDriverWithKeyAndValue
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  driver[key] = value
+  return driver
+}
 // deleteFromDriverByKey
 // destructivelyDeleteFromDriverByKey
