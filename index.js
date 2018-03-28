@@ -3,7 +3,13 @@
 let driver = {}
 
 
-// updateDriverWithKeyAndValue
+function updateDriverWithKeyAndValue(driver, key, value) {
+  driver[key = value]
+}
+
+
+
+
 // destructivelyUpdateDriverWithKeyAndValue
 // deleteFromDriverByKey
 // destructivelyDeleteFromDriverByKey
